@@ -1,4 +1,4 @@
-package com.vn.nhat.data_structure.linkedlist;
+package com.vn.nhat.datastructure.linkedlist;
 
 import java.util.List;
 import org.junit.jupiter.api.Assertions;
