@@ -50,4 +50,14 @@ public class LongestPalindromic extends Problem<String, String> {
     }
     return true;
   }
+
+  @Override
+  public String getSolutionIdea() {
+    return """
+        Solution idea: TBD
+        Brute force: O(N^3) -> We loop i,j in input
+        We check if substring(i,j) is palindrome -> if yes, update bestLeft, bestRight
+        Return bestRight - bestLeft
+        """;
+  }
 }

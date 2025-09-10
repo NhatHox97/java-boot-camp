@@ -19,4 +19,9 @@ public class MedianTwoArray extends Problem<int[][], Double> {
   public Double solution(int[][] input) {
     throw new UnsupportedOperationException("Not implemented yet");
   }
+
+  @Override
+  public String getSolutionIdea() {
+    return "";
+  }
 }

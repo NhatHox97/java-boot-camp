@@ -27,6 +27,6 @@ class LongestPalindromicTest {
   void testNullInput() {
     LongestPalindromic longestPalindromic = new LongestPalindromic();
     String result = longestPalindromic.solution(null);
-    Assertions.assertEquals(null, result);
+    Assertions.assertNull(result);
   }
 }

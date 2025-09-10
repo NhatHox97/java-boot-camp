@@ -1,5 +1,11 @@
 package com.vn.nhat.algorithm.factory;
 
+/**
+ * The abstract class for algorithm problem.
+ *
+ * @param <I> Represents the input of the problem
+ * @param <O> Represents the output of the problem
+ */
 public abstract class Problem<I, O> {
 
   private final Level level;
@@ -50,4 +56,11 @@ public abstract class Problem<I, O> {
    * @return the output of the problem
    */
   public abstract O solution(I input);
+
+  /**
+   * Get the idea of the solution.
+   *
+   * @return the idea of the solution
+   */
+  public abstract String getSolutionIdea();
 }
