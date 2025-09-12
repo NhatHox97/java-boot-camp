@@ -44,7 +44,6 @@ public class LFUCache extends Problem<LFUCacheInput, List<Integer>> {
         super(Level.MEDIUM, DESCRIPTION);
     }
 
-
     @Override
     public List<Integer> bruteForce(LFUCacheInput input) {
         return solution(input);
@@ -61,7 +60,6 @@ public class LFUCache extends Problem<LFUCacheInput, List<Integer>> {
             validateOperation(op);
 
             int actionType = op[0];
-            validateActionType(actionType);
             int key = op[1];
 
             if (actionType == 1) {
